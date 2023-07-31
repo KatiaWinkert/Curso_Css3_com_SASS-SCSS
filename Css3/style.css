@@ -1,6 +1,6 @@
 body {
-  background-color: #17181c;
-  color: #fff;
+  background-color: #ffff;
+  color: #000;
   font-family: sans-serif;
 }
 
@@ -21,6 +21,31 @@ body {
   box-shadow: 0 0 0 15px rgba(255, 255, 255, 0);
   animation: pulsar 1s;
 }
+
+     body {
+            margin: 0;
+        }
+        .container-flex {
+            display: flex;
+            width: 100vw;
+            height: 100vh;
+            align-items: baseline
+        }
+        .container{
+          display: grid;
+          width: 100vw;
+          height: 100vh;
+          background-color:  yellow; 
+          align-items: stretch; 
+
+        }
+        .container > div {
+            width: 100px;
+          
+            background-color: pink;
+            margin: 10px;
+
+        }
 
 @keyframes pulsar {
   0% {
