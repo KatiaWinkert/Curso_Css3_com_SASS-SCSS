@@ -2,6 +2,7 @@ body {
   background-color: #ffff;
   color: #000;
   font-family: sans-serif;
+  margin: 0;
 }
 
 .pulse {
@@ -22,31 +23,38 @@ body {
   animation: pulsar 1s;
 }
 
-     body {
-            margin: 0;
-        }
-        .container-flex {
+ 
+ 
+        .container {
             display: flex;
             width: 100vw;
             height: 100vh;
-            align-items: baseline
-        }
-        .container{
-          display: grid;
-          width: 100vw;
-          height: 100vh;
-          background-color:  yellow; 
-          align-items: stretch; 
+            align-items: center;
+            flex-direction: row;
 
         }
         .container > div {
-            width: 100px;
-          
+            width: 400px;
+          height: 100px;
             background-color: pink;
             margin: 10px;
 
         }
-
+        .containerr {
+            display: flex;
+            width: 100vw;
+            height: 100vh;
+            align-items: center;
+            flex-direction: column ;
+            flex-wrap: wrap;
+          align-content: space-between;
+          }
+        .containerr > div {
+            width: 100px;
+          height: 400px;
+            background-color: pink;
+            margin: 10px;
+        }
 @keyframes pulsar {
   0% {
     box-shadow: 0 0 0 0 #70bcda;
