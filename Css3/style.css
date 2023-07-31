@@ -55,6 +55,26 @@ body {
             background-color: pink;
             margin: 10px;
         }
+        .palce_content{
+           display: flex;
+            width: 100vw;
+            height: 100vh;
+            align-items: center;
+            flex-direction: column ;
+            flex-wrap: wrap;
+          align-content: space-between;
+         justify-content: center;
+        }
+        .palce_content  > div {
+          width: 100px;
+          height: 300px;
+          background-color: blueviolet;
+          margin: 10px;
+        }
+
+
+
+
 @keyframes pulsar {
   0% {
     box-shadow: 0 0 0 0 #70bcda;
