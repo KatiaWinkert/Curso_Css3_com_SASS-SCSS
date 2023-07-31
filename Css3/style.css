@@ -72,6 +72,21 @@ body {
           margin: 10px;
         }
 
+ body {
+   display: grid;
+   justify-items: right;
+
+ }
+div {
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  background-color: #e94e10;
+}
+  
+
+
+
 
 
 
