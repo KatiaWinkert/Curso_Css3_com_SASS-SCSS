@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            display: flex;
+            height: 100vh;
+            align-items: center;
+        }
+        .flex_basis{
+            width: 80%;
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0px 0px 0px 10px rgb(100, 100, 100, .2);
+            flex-wrap: wrap;
+            margin: 2% auto;
+        }
+        .flex_basis > div {
+            height: 150px;
+            border: solid .5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all .2s ease-in-out;
+            flex-basis: 200px;
+        }
+        .flex_basis > div:hover {
+            flex-basis: 250px;
+            border-color: yellow;
+        }
+
+    </style>
+<body>
+   
+    <div class="flex_basis">
+        <div class="a">a</div>
+        <div class="b">b</div>
+        <div class="c">c</div>
+        <div class="d">d</div>
+    </div>    
+    
+
+</body>
+</html>
