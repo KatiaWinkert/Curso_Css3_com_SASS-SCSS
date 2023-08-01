@@ -74,14 +74,17 @@ body {
 
  body {
    display: grid;
-   justify-items: right;
+  place-items: center;
+   height: 100vh;
+   
 
  }
 div {
-  margin: 10px;
+  
   width: 200px;
   height: 200px;
   background-color: #e94e10;
+  margin: 10px;
 }
   
 
