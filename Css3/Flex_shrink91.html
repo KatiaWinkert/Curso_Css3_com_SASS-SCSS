@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            display: flex;
+            height: 100vh;
+            align-items: center;
+        }
+        .flex_grow{
+            width: 15%;
+            height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0px 0px 0px 10px rgb(100, 100, 100, .2);
+            margin: 2% auto;
+        }
+        .flex_grow > div {
+            height: 150px;
+            border: solid .5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all .2s ease-in-out;
+           flex-grow: 1;
+           flex-shrink: 1;
+           flex-basis: 100px;
+        }
+        .flex_grow > div:hover {
+       
+            border-color: yellow;
+        }
+        .flex_grow > div.a {
+            flex-shrink: 3;
+        }
+        
+
+    </style>
+<body>
+   
+    <div class="flex_grow">
+        <div class="a">a</div>
+        <div class="b">b</div>
+        <div class="c">c</div>
+        <div class="d">d</div>
+    </div>    
+    
+
+</body>
+</html>
